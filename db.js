@@ -1,7 +1,10 @@
 // structure: company: service
 module.exports = {
   icbc: {
-    personal: [],
-    company: [],
+    normal: [],
+    goldenCard: [],
+    goldenSunflower: [],
+    cash: [],
   },
+  
 }
