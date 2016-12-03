@@ -23,7 +23,7 @@ app.post('/deleteUser', deleteUserFromQueue);
 app.post('/getPosition', paramCheck, getPosition);
 
 //var PORT = process.env.PORT;
-var PORT = 8080
+var PORT = 80
 
 app.listen(PORT, function(){
     console.log(`API magic happens: ${process.env.PORT}`);

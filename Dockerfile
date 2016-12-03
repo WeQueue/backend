@@ -6,5 +6,5 @@ COPY ./backend /src
 # Install app dependencies
 RUN cd /src; npm install
 
-EXPOSE 8080
+EXPOSE 80
 CMD ["node", "/src/index.js"]
