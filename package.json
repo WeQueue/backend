@@ -1,0 +1,31 @@
+{
+  "name": "we-queue",
+  "version": "0.0.0",
+  "description": "api part of we queue",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --harmony-async-await index.js",
+    "test": "node --harmony-async-await test/addAndDelete.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WeQueue/backend.git"
+  },
+  "author": "timqian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WeQueue/backend/issues"
+  },
+  "homepage": "https://github.com/WeQueue/backend#readme",
+  "dependencies": {
+    "axios": "^0.15.2",
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "method-override": "^2.3.6",
+    "morgan": "^1.7.0",
+    "smsapi-pl": "^0.2.0",
+    "twilio": "^2.11.1",
+    "urllib": "^2.17.0"
+  }
+}
