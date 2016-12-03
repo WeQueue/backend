@@ -1,7 +1,7 @@
 FROM node:alpine
 
 # Bundle app source
-COPY . /src
+COPY ./backend /src
 
 # Install app dependencies
 RUN cd /src; npm install
